@@ -1,0 +1,81 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Testing frameworks
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'org.testng:testng:7.10.2'  // ← UBAH ke testImplementation
+
+    // Selenium & WebDriverManager
+    implementation("org.seleniumhq.selenium:selenium-java:4.38.0")
+    implementation 'io.github.bonigarcia:webdrivermanager:6.3.2'
+
+    // Assertion & Reporting
+    testImplementation 'org.assertj:assertj-core:3.27.3'
+    implementation 'com.aventstack:extentreports:5.1.2'
+
+    // Excel & CSV handling
+    implementation 'org.apache.poi:poi:5.4.1'
+    implementation 'org.apache.poi:poi-ooxml:5.4.1'
+    implementation 'com.opencsv:opencsv:5.9'
+
+    // Logging
+    implementation 'org.apache.logging.log4j:log4j-core:2.25.1'
+    implementation 'org.apache.logging.log4j:log4j-api:2.25.1'
+    implementation 'org.apache.logging.log4j:log4j-slf4j2-impl:2.25.1'  // ← TAMBAHKAN ini
+
+    // JSON
+    implementation 'com.google.code.gson:gson:2.10.1'
+
+    // File utilities
+    implementation 'commons-io:commons-io:2.15.1'
+}
+
+
+test {
+    useTestNG() {
+        // Load suite XML file from project property or default to smoke.xml
+        def suite = project.hasProperty('suite') ? project.property('suite') : 'smoke.xml'
+        suiteXmlFiles = files("src/test/resources/suites/${suite}")
+
+        println "Run test suite: ${suite}"
+    }
+
+    // Pass environment variable if provided
+    if (project.hasProperty('env')) {
+        systemProperty('env', project.property('env'))
+    }
+
+    // Output configuration
+    reports {
+        html.required = true
+        html.outputLocation = layout.buildDirectory.dir("reports/testng-html")
+    }
+
+    // Show test results in console
+    testLogging {
+        events = ["passed", "skipped", "failed"]
+        exceptionFormat = "full"
+        showStandardStreams = false
+        maxHeapSize = "1024m"
+    }
+}
+
+// Task untuk melihat deprecation details
+tasks.withType(JavaCompile).configureEach {
+    options.compilerArgs << "-Xlint:deprecation"
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SmokeTestSuite" verbose="1" parallel="false">
+
+    <listeners>
+        <listener class-name="com.example.tests.ExtentReportListener"/>
+    </listeners>
+
+    <test name="SmokeTests">
+        <classes>
+            <class name="com.example.tests.LoginTest">
+                <methods>
+                    <include name="testLoginSuccess"/>
+                    <include name="testFailedLoginLockedUser"/>
+                    <include name="testDataDriven"/>
+                    <include name="testFailedLoginEmptyPassword"/>
+                    <include name="testLoginProblemUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
