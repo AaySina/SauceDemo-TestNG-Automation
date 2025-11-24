@@ -1,89 +1,89 @@
-2025-11-23 20:38:02.212 [Test worker] INFO  com.example.tests.BaseTest - Loaded config from: src/test/resources/staging.properties
-2025-11-23 20:38:02.409 [Test worker] INFO  com.example.tests.BaseTest - Setting up browser: chrome
-2025-11-23 20:38:04.855 [Test worker] INFO  com.example.tests.BaseTest - Navigated to: https://www.saucedemo.com/
-2025-11-23 20:38:04.864 [Test worker] INFO  com.example.tests.LoginTest - Starting testLoginSuccess...
-2025-11-23 20:38:04.887 [Test worker] INFO  org.example.Pages.LoginPage - Logging in with username: standard_user
-2025-11-23 20:38:05.007 [Test worker] INFO  org.example.Pages.LoginPage - Username entered: standard_user
-2025-11-23 20:38:05.091 [Test worker] INFO  org.example.Pages.LoginPage - Password entered: secret_sauce
-2025-11-23 20:38:05.181 [Test worker] INFO  org.example.Pages.LoginPage - user clicked button: standard_user
-2025-11-23 20:38:05.196 [Test worker] INFO  com.example.tests.LoginTest - ✓ Login successful for user: standard_user
-2025-11-23 20:38:05.413 [Test worker] INFO  com.example.tests.BaseTest - Clearing session and cookies...
-2025-11-23 20:38:05.583 [Test worker] INFO  com.example.tests.BaseTest - Browser closed successfully
-2025-11-23 20:38:05.587 [Test worker] INFO  com.example.tests.BaseTest - Setting up browser: chrome
-2025-11-23 20:38:07.232 [Test worker] INFO  com.example.tests.BaseTest - Navigated to: https://www.saucedemo.com/
-2025-11-23 20:38:07.233 [Test worker] INFO  com.example.tests.LoginTest - Starting testFailedLoginLockedUser...
-2025-11-23 20:38:07.233 [Test worker] INFO  org.example.Pages.LoginPage - Logging in with username: locked_out_user
-2025-11-23 20:38:07.349 [Test worker] INFO  org.example.Pages.LoginPage - Username entered: locked_out_user
-2025-11-23 20:38:07.419 [Test worker] INFO  org.example.Pages.LoginPage - Password entered: secret_sauce
-2025-11-23 20:38:07.493 [Test worker] INFO  org.example.Pages.LoginPage - user clicked button: locked_out_user
-2025-11-23 20:38:07.543 [Test worker] INFO  org.example.Pages.LoginPage - Error message displayed: Epic sadface: Sorry, this user has been locked out.
-2025-11-23 20:38:07.544 [Test worker] INFO  com.example.tests.LoginTest - Expected Error: Epic sadface: Sorry, this user has been locked out.
-2025-11-23 20:38:07.544 [Test worker] INFO  com.example.tests.LoginTest - Actual Error: Epic sadface: Sorry, this user has been locked out.
-2025-11-23 20:38:07.550 [Test worker] INFO  com.example.tests.LoginTest - ✓ HARD ASSERTIONS PASSED for locked_out_user
-2025-11-23 20:38:07.632 [Test worker] INFO  com.example.tests.BaseTest - Clearing session and cookies...
-2025-11-23 20:38:07.776 [Test worker] INFO  com.example.tests.BaseTest - Browser closed successfully
-2025-11-23 20:38:07.778 [Test worker] INFO  com.example.tests.LoginTest - Loading test data from Excel: src/test/resources/data/login-data-test.xlsx
-2025-11-23 20:38:07.780 [Test worker] INFO  org.example.Utils.TestUtils - Attempting to load test data from: src/test/resources/data/login-data-test.xlsx (Sheet: login-tests)
-2025-11-23 20:38:08.262 [Test worker] INFO  org.example.Utils.TestUtils - Successfully loaded 3 test data rows from sheet: login-tests
-2025-11-23 20:38:08.263 [Test worker] INFO  com.example.tests.LoginTest - Loaded 3 test data rows
-2025-11-23 20:38:08.264 [Test worker] INFO  com.example.tests.BaseTest - Setting up browser: chrome
-2025-11-23 20:38:09.905 [Test worker] INFO  com.example.tests.BaseTest - Navigated to: https://www.saucedemo.com/
-2025-11-23 20:38:09.908 [Test worker] INFO  com.example.tests.LoginTest - === Starting Data-Driven Test === (User: standard_user, Expected: success)
-2025-11-23 20:38:09.919 [Test worker] INFO  org.example.Pages.LoginPage - Logging in with username: standard_user
-2025-11-23 20:38:10.088 [Test worker] INFO  org.example.Pages.LoginPage - Username entered: standard_user
-2025-11-23 20:38:10.173 [Test worker] INFO  org.example.Pages.LoginPage - Password entered: secret_sauce
-2025-11-23 20:38:10.265 [Test worker] INFO  org.example.Pages.LoginPage - user clicked button: standard_user
-2025-11-23 20:38:10.265 [Test worker] INFO  com.example.tests.LoginTest - Expect SUCCESS navigation.
-2025-11-23 20:38:10.279 [Test worker] INFO  com.example.tests.BaseTest - Manual session clear...
-2025-11-23 20:38:10.376 [Test worker] INFO  com.example.tests.BaseTest - Session cleared and refreshed
-2025-11-23 20:38:10.440 [Test worker] INFO  com.example.tests.LoginTest - === Data-Driven Test Completed ===
+2025-11-23 21:00:11.530 [Test worker] INFO  com.example.tests.BaseTest - Loaded config from: src/test/resources/staging.properties
+2025-11-23 21:00:11.697 [Test worker] INFO  com.example.tests.BaseTest - Setting up browser: chrome
+2025-11-23 21:00:13.758 [Test worker] INFO  com.example.tests.BaseTest - Navigated to: https://www.saucedemo.com/
+2025-11-23 21:00:13.767 [Test worker] INFO  com.example.tests.LoginTest - Starting testLoginSuccess...
+2025-11-23 21:00:13.790 [Test worker] INFO  org.example.Pages.LoginPage - Logging in with username: standard_user
+2025-11-23 21:00:13.921 [Test worker] INFO  org.example.Pages.LoginPage - Username entered: standard_user
+2025-11-23 21:00:14.019 [Test worker] INFO  org.example.Pages.LoginPage - Password entered: secret_sauce
+2025-11-23 21:00:14.134 [Test worker] INFO  org.example.Pages.LoginPage - user clicked button: standard_user
+2025-11-23 21:00:14.154 [Test worker] INFO  com.example.tests.LoginTest - ✓ Login successful for user: standard_user
+2025-11-23 21:00:14.399 [Test worker] INFO  com.example.tests.BaseTest - Clearing session and cookies...
+2025-11-23 21:00:14.604 [Test worker] INFO  com.example.tests.BaseTest - Browser closed successfully
+2025-11-23 21:00:14.608 [Test worker] INFO  com.example.tests.BaseTest - Setting up browser: chrome
+2025-11-23 21:00:15.927 [Test worker] INFO  com.example.tests.BaseTest - Navigated to: https://www.saucedemo.com/
+2025-11-23 21:00:15.928 [Test worker] INFO  com.example.tests.LoginTest - Starting testFailedLoginLockedUser...
+2025-11-23 21:00:15.929 [Test worker] INFO  org.example.Pages.LoginPage - Logging in with username: locked_out_user
+2025-11-23 21:00:16.030 [Test worker] INFO  org.example.Pages.LoginPage - Username entered: locked_out_user
+2025-11-23 21:00:16.114 [Test worker] INFO  org.example.Pages.LoginPage - Password entered: secret_sauce
+2025-11-23 21:00:16.204 [Test worker] INFO  org.example.Pages.LoginPage - user clicked button: locked_out_user
+2025-11-23 21:00:16.252 [Test worker] INFO  org.example.Pages.LoginPage - Error message displayed: Epic sadface: Sorry, this user has been locked out.
+2025-11-23 21:00:16.253 [Test worker] INFO  com.example.tests.LoginTest - Expected Error: Epic sadface: Sorry, this user has been locked out.
+2025-11-23 21:00:16.253 [Test worker] INFO  com.example.tests.LoginTest - Actual Error: Epic sadface: Sorry, this user has been locked out.
+2025-11-23 21:00:16.258 [Test worker] INFO  com.example.tests.LoginTest - ✓ HARD ASSERTIONS PASSED for locked_out_user
+2025-11-23 21:00:16.345 [Test worker] INFO  com.example.tests.BaseTest - Clearing session and cookies...
+2025-11-23 21:00:16.512 [Test worker] INFO  com.example.tests.BaseTest - Browser closed successfully
+2025-11-23 21:00:16.514 [Test worker] INFO  com.example.tests.LoginTest - Loading test data from Excel: src/test/resources/data/login-data-test.xlsx
+2025-11-23 21:00:16.515 [Test worker] INFO  org.example.Utils.TestUtils - Attempting to load test data from: src/test/resources/data/login-data-test.xlsx (Sheet: login-tests)
+2025-11-23 21:00:16.904 [Test worker] INFO  org.example.Utils.TestUtils - Successfully loaded 3 test data rows from sheet: login-tests
+2025-11-23 21:00:16.905 [Test worker] INFO  com.example.tests.LoginTest - Loaded 3 test data rows
+2025-11-23 21:00:16.907 [Test worker] INFO  com.example.tests.BaseTest - Setting up browser: chrome
+2025-11-23 21:00:18.269 [Test worker] INFO  com.example.tests.BaseTest - Navigated to: https://www.saucedemo.com/
+2025-11-23 21:00:18.272 [Test worker] INFO  com.example.tests.LoginTest - === Starting Data-Driven Test === (User: standard_user, Expected: success)
+2025-11-23 21:00:18.274 [Test worker] INFO  org.example.Pages.LoginPage - Logging in with username: standard_user
+2025-11-23 21:00:18.397 [Test worker] INFO  org.example.Pages.LoginPage - Username entered: standard_user
+2025-11-23 21:00:18.493 [Test worker] INFO  org.example.Pages.LoginPage - Password entered: secret_sauce
+2025-11-23 21:00:18.607 [Test worker] INFO  org.example.Pages.LoginPage - user clicked button: standard_user
+2025-11-23 21:00:18.608 [Test worker] INFO  com.example.tests.LoginTest - Expect SUCCESS navigation.
+2025-11-23 21:00:18.624 [Test worker] INFO  com.example.tests.BaseTest - Manual session clear...
+2025-11-23 21:00:18.738 [Test worker] INFO  com.example.tests.BaseTest - Session cleared and refreshed
+2025-11-23 21:00:18.829 [Test worker] INFO  com.example.tests.LoginTest - === Data-Driven Test Completed ===
 
-2025-11-23 20:38:10.529 [Test worker] INFO  com.example.tests.BaseTest - Clearing session and cookies...
-2025-11-23 20:38:10.699 [Test worker] INFO  com.example.tests.BaseTest - Browser closed successfully
-2025-11-23 20:38:10.700 [Test worker] INFO  com.example.tests.BaseTest - Setting up browser: chrome
-2025-11-23 20:38:12.290 [Test worker] INFO  com.example.tests.BaseTest - Navigated to: https://www.saucedemo.com/
-2025-11-23 20:38:12.292 [Test worker] INFO  com.example.tests.LoginTest - === Starting Data-Driven Test === (User: problem_user, Expected: success)
-2025-11-23 20:38:12.292 [Test worker] INFO  org.example.Pages.LoginPage - Logging in with username: problem_user
-2025-11-23 20:38:12.414 [Test worker] INFO  org.example.Pages.LoginPage - Username entered: problem_user
-2025-11-23 20:38:12.512 [Test worker] INFO  org.example.Pages.LoginPage - Password entered: secret_sauce
-2025-11-23 20:38:12.610 [Test worker] INFO  org.example.Pages.LoginPage - user clicked button: problem_user
-2025-11-23 20:38:12.610 [Test worker] INFO  com.example.tests.LoginTest - Expect SUCCESS navigation.
-2025-11-23 20:38:12.625 [Test worker] INFO  com.example.tests.BaseTest - Manual session clear...
-2025-11-23 20:38:12.948 [Test worker] INFO  com.example.tests.BaseTest - Session cleared and refreshed
-2025-11-23 20:38:12.987 [Test worker] INFO  com.example.tests.LoginTest - === Data-Driven Test Completed ===
+2025-11-23 21:00:18.945 [Test worker] INFO  com.example.tests.BaseTest - Clearing session and cookies...
+2025-11-23 21:00:19.123 [Test worker] INFO  com.example.tests.BaseTest - Browser closed successfully
+2025-11-23 21:00:19.125 [Test worker] INFO  com.example.tests.BaseTest - Setting up browser: chrome
+2025-11-23 21:00:20.735 [Test worker] INFO  com.example.tests.BaseTest - Navigated to: https://www.saucedemo.com/
+2025-11-23 21:00:20.737 [Test worker] INFO  com.example.tests.LoginTest - === Starting Data-Driven Test === (User: problem_user, Expected: success)
+2025-11-23 21:00:20.737 [Test worker] INFO  org.example.Pages.LoginPage - Logging in with username: problem_user
+2025-11-23 21:00:20.853 [Test worker] INFO  org.example.Pages.LoginPage - Username entered: problem_user
+2025-11-23 21:00:20.946 [Test worker] INFO  org.example.Pages.LoginPage - Password entered: secret_sauce
+2025-11-23 21:00:21.050 [Test worker] INFO  org.example.Pages.LoginPage - user clicked button: problem_user
+2025-11-23 21:00:21.050 [Test worker] INFO  com.example.tests.LoginTest - Expect SUCCESS navigation.
+2025-11-23 21:00:21.067 [Test worker] INFO  com.example.tests.BaseTest - Manual session clear...
+2025-11-23 21:00:21.197 [Test worker] INFO  com.example.tests.BaseTest - Session cleared and refreshed
+2025-11-23 21:00:21.277 [Test worker] INFO  com.example.tests.LoginTest - === Data-Driven Test Completed ===
 
-2025-11-23 20:38:13.088 [Test worker] INFO  com.example.tests.BaseTest - Clearing session and cookies...
-2025-11-23 20:38:13.259 [Test worker] INFO  com.example.tests.BaseTest - Browser closed successfully
-2025-11-23 20:38:13.261 [Test worker] INFO  com.example.tests.BaseTest - Setting up browser: chrome
-2025-11-23 20:38:14.961 [Test worker] INFO  com.example.tests.BaseTest - Navigated to: https://www.saucedemo.com/
-2025-11-23 20:38:14.962 [Test worker] INFO  com.example.tests.LoginTest - === Starting Data-Driven Test === (User: locked_out_user, Expected: failure)
-2025-11-23 20:38:14.962 [Test worker] INFO  org.example.Pages.LoginPage - Logging in with username: locked_out_user
-2025-11-23 20:38:15.093 [Test worker] INFO  org.example.Pages.LoginPage - Username entered: locked_out_user
-2025-11-23 20:38:15.189 [Test worker] INFO  org.example.Pages.LoginPage - Password entered: secret_sauce
-2025-11-23 20:38:15.317 [Test worker] INFO  org.example.Pages.LoginPage - user clicked button: locked_out_user
-2025-11-23 20:38:15.317 [Test worker] INFO  com.example.tests.LoginTest - Expect FAILURE navigation and error message.
-2025-11-23 20:38:15.360 [Test worker] INFO  org.example.Pages.LoginPage - Error message displayed: Epic sadface: Sorry, this user has been locked out.
-2025-11-23 20:38:15.367 [Test worker] INFO  com.example.tests.LoginTest - === Data-Driven Test Completed ===
+2025-11-23 21:00:21.393 [Test worker] INFO  com.example.tests.BaseTest - Clearing session and cookies...
+2025-11-23 21:00:21.579 [Test worker] INFO  com.example.tests.BaseTest - Browser closed successfully
+2025-11-23 21:00:21.580 [Test worker] INFO  com.example.tests.BaseTest - Setting up browser: chrome
+2025-11-23 21:00:24.557 [Test worker] INFO  com.example.tests.BaseTest - Navigated to: https://www.saucedemo.com/
+2025-11-23 21:00:24.558 [Test worker] INFO  com.example.tests.LoginTest - === Starting Data-Driven Test === (User: locked_out_user, Expected: failure)
+2025-11-23 21:00:24.559 [Test worker] INFO  org.example.Pages.LoginPage - Logging in with username: locked_out_user
+2025-11-23 21:00:24.676 [Test worker] INFO  org.example.Pages.LoginPage - Username entered: locked_out_user
+2025-11-23 21:00:24.759 [Test worker] INFO  org.example.Pages.LoginPage - Password entered: secret_sauce
+2025-11-23 21:00:24.833 [Test worker] INFO  org.example.Pages.LoginPage - user clicked button: locked_out_user
+2025-11-23 21:00:24.833 [Test worker] INFO  com.example.tests.LoginTest - Expect FAILURE navigation and error message.
+2025-11-23 21:00:24.880 [Test worker] INFO  org.example.Pages.LoginPage - Error message displayed: Epic sadface: Sorry, this user has been locked out.
+2025-11-23 21:00:24.885 [Test worker] INFO  com.example.tests.LoginTest - === Data-Driven Test Completed ===
 
-2025-11-23 20:38:15.446 [Test worker] INFO  com.example.tests.BaseTest - Clearing session and cookies...
-2025-11-23 20:38:15.625 [Test worker] INFO  com.example.tests.BaseTest - Browser closed successfully
-2025-11-23 20:38:15.627 [Test worker] INFO  com.example.tests.BaseTest - Setting up browser: chrome
-2025-11-23 20:38:17.286 [Test worker] INFO  com.example.tests.BaseTest - Navigated to: https://www.saucedemo.com/
-2025-11-23 20:38:17.287 [Test worker] INFO  com.example.tests.LoginTest - Starting testFailedLoginEmptyPassword...
-2025-11-23 20:38:17.289 [Test worker] INFO  org.example.Pages.LoginPage - Logging in with username: standard_user
-2025-11-23 20:38:17.417 [Test worker] INFO  org.example.Pages.LoginPage - Username entered: standard_user
-2025-11-23 20:38:17.496 [Test worker] INFO  org.example.Pages.LoginPage - user clicked button: standard_user
-2025-11-23 20:38:17.542 [Test worker] INFO  org.example.Pages.LoginPage - Error message displayed: Epic sadface: Password is required
-2025-11-23 20:38:17.542 [Test worker] INFO  com.example.tests.LoginTest - ✓ HARD ASSERTIONS PASSED for empty password scenario.
-2025-11-23 20:38:17.625 [Test worker] INFO  com.example.tests.BaseTest - Clearing session and cookies...
-2025-11-23 20:38:17.791 [Test worker] INFO  com.example.tests.BaseTest - Browser closed successfully
-2025-11-23 20:38:17.792 [Test worker] INFO  com.example.tests.BaseTest - Setting up browser: chrome
-2025-11-23 20:38:19.859 [Test worker] INFO  com.example.tests.BaseTest - Navigated to: https://www.saucedemo.com/
-2025-11-23 20:38:19.860 [Test worker] INFO  com.example.tests.LoginTest - Starting testLoginProblemUser...
-2025-11-23 20:38:19.861 [Test worker] INFO  org.example.Pages.LoginPage - Logging in with username: problem_user
-2025-11-23 20:38:19.975 [Test worker] INFO  org.example.Pages.LoginPage - Username entered: problem_user
-2025-11-23 20:38:20.059 [Test worker] INFO  org.example.Pages.LoginPage - Password entered: secret_sauce
-2025-11-23 20:38:20.158 [Test worker] INFO  org.example.Pages.LoginPage - user clicked button: problem_user
-2025-11-23 20:38:20.167 [Test worker] INFO  com.example.tests.LoginTest - ✓ Login successful for problem_user.
-2025-11-23 20:38:20.277 [Test worker] INFO  com.example.tests.BaseTest - Clearing session and cookies...
-2025-11-23 20:38:20.478 [Test worker] INFO  com.example.tests.BaseTest - Browser closed successfully
+2025-11-23 21:00:24.983 [Test worker] INFO  com.example.tests.BaseTest - Clearing session and cookies...
+2025-11-23 21:00:25.212 [Test worker] INFO  com.example.tests.BaseTest - Browser closed successfully
+2025-11-23 21:00:25.215 [Test worker] INFO  com.example.tests.BaseTest - Setting up browser: chrome
+2025-11-23 21:00:26.611 [Test worker] INFO  com.example.tests.BaseTest - Navigated to: https://www.saucedemo.com/
+2025-11-23 21:00:26.613 [Test worker] INFO  com.example.tests.LoginTest - Starting testFailedLoginEmptyPassword...
+2025-11-23 21:00:26.614 [Test worker] INFO  org.example.Pages.LoginPage - Logging in with username: standard_user
+2025-11-23 21:00:26.737 [Test worker] INFO  org.example.Pages.LoginPage - Username entered: standard_user
+2025-11-23 21:00:26.821 [Test worker] INFO  org.example.Pages.LoginPage - user clicked button: standard_user
+2025-11-23 21:00:26.869 [Test worker] INFO  org.example.Pages.LoginPage - Error message displayed: Epic sadface: Password is required
+2025-11-23 21:00:26.870 [Test worker] INFO  com.example.tests.LoginTest - ✓ HARD ASSERTIONS PASSED for empty password scenario.
+2025-11-23 21:00:26.947 [Test worker] INFO  com.example.tests.BaseTest - Clearing session and cookies...
+2025-11-23 21:00:27.128 [Test worker] INFO  com.example.tests.BaseTest - Browser closed successfully
+2025-11-23 21:00:27.130 [Test worker] INFO  com.example.tests.BaseTest - Setting up browser: chrome
+2025-11-23 21:00:28.336 [Test worker] INFO  com.example.tests.BaseTest - Navigated to: https://www.saucedemo.com/
+2025-11-23 21:00:28.336 [Test worker] INFO  com.example.tests.LoginTest - Starting testLoginProblemUser...
+2025-11-23 21:00:28.338 [Test worker] INFO  org.example.Pages.LoginPage - Logging in with username: problem_user
+2025-11-23 21:00:28.431 [Test worker] INFO  org.example.Pages.LoginPage - Username entered: problem_user
+2025-11-23 21:00:28.503 [Test worker] INFO  org.example.Pages.LoginPage - Password entered: secret_sauce
+2025-11-23 21:00:28.578 [Test worker] INFO  org.example.Pages.LoginPage - user clicked button: problem_user
+2025-11-23 21:00:28.586 [Test worker] INFO  com.example.tests.LoginTest - ✓ Login successful for problem_user.
+2025-11-23 21:00:28.666 [Test worker] INFO  com.example.tests.BaseTest - Clearing session and cookies...
+2025-11-23 21:00:28.829 [Test worker] INFO  com.example.tests.BaseTest - Browser closed successfully
