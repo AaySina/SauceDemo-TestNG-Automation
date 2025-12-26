@@ -35,7 +35,7 @@ Semua tes login berada di `LoginTest.java` dan dijalankan melalui TestNG Suite X
 * **Data Handling:** Apache POI (untuk Excel)
 * **Dependency Management:** Gradle
 
-## ara Menjalankan Proyek (Execution)
+## Cara Menjalankan Proyek (Execution)
 
 1.  **Clone Repository:**
     ```bash
