@@ -1,8 +1,8 @@
-# 🛒 SauceDemo TestNG Automation Framework
+# SauceDemo TestNG Automation Framework
 
 Proyek ini adalah kerangka kerja otomatisasi UI komprehensif yang dikembangkan menggunakan **Java**, **Selenium WebDriver**, dan **TestNG**. Framework ini dirancang untuk memvalidasi fungsionalitas Login di aplikasi e-commerce Sauce Demo, memenuhi persyaratan dari dua assignment (Assigment 1: Assertions & DDT, Assigment 2: Listener & Reporting).
 
-## ✨ Fitur Utama Framework
+## Fitur Utama Framework
 
 Framework ini mengimplementasikan praktik terbaik industri, termasuk:
 
@@ -13,7 +13,7 @@ Framework ini mengimplementasikan praktik terbaik industri, termasuk:
 * **Validasi Robust:** Menggunakan **Hard Assertions** dan **Soft Assertions** untuk berbagai skenario pengujian.
 * **Logging Profesional:** Integrasi **Log4j 2** untuk mencatat setiap langkah eksekusi ke console dan file (`test-logs/automation.log`).
 
-## 🧪 Skenario Pengujian (Test Scenarios)
+## Skenario Pengujian (Test Scenarios)
 
 Semua tes login berada di `LoginTest.java` dan dijalankan melalui TestNG Suite XML.
 
@@ -25,7 +25,7 @@ Semua tes login berada di `LoginTest.java` dan dijalankan melalui TestNG Suite X
 | **Problem User** | Login dengan *problem_user*. | Hard Assert (Validasi Navigasi Post-Login). |
 | **Data Driven Test** | Menguji beberapa *dataset* (sukses/gagal) dari file Excel. | Soft Assert (Untuk mengumpulkan semua kegagalan). |
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 * **Bahasa:** Java (JDK 21+)
 * **Web Automation:** Selenium WebDriver
@@ -35,7 +35,7 @@ Semua tes login berada di `LoginTest.java` dan dijalankan melalui TestNG Suite X
 * **Data Handling:** Apache POI (untuk Excel)
 * **Dependency Management:** Gradle
 
-## ⚙️ Cara Menjalankan Proyek (Execution)
+## ara Menjalankan Proyek (Execution)
 
 1.  **Clone Repository:**
     ```bash
